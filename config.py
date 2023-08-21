@@ -16,7 +16,7 @@ user = ["oIe2Z5qmxK8xuhgv2PzlRfLjCzuI"]
 
 # 信息配置
 # 所在省份
-province = "河北省"
+province = "河北"
 # 所在城市
 city = "张家口"
 # 生日，如果月份或者日期小于10，直接用对应的数字即可，例如1997-1-1，---------倒计时
