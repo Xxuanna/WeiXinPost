@@ -5,7 +5,7 @@ app_id = "wx6ab129f6f29ec5f2"
 app_secret = "35784526f9f23fb8f777d6bc2ec1f891"
 # 模板消息id
 # 每日消息
-template_id1 = "LhvPnkYlWCJy9w4PZnRkLyUkSzY79fUkelUwYc9IkU0"
+template_id1 = "9HgnQAOzl7N4hwROK0obQOj71xUUrIShLUy4TQeHWBU"
 # 课程消息,上课提醒
 template_id2 = "wBpOANViDXjsD1vWx0P1RakvHz_yASxnr7sKUyMkCr4"
 # 晚安心语
@@ -31,13 +31,13 @@ year = 2023
 month = 8
 day = 21
 # 每日推送时间
-post_Time = "16:25:00"
+post_Time = "23:40:00"
 # 每节课提醒时间（有课才会提醒）, 时:分:秒  的形式, 字符串, 根据个人需要设置几次
 time_table = ["08:05:00", "10:05:00", "14:10:00", "16:05:00"]
 # 课程时间
 course_Time = ["8:30--10：10", "10:20--12：00", "14:30--16：10", "16:20--18：00"]
 # 晚安心语及第二天课程推送时间
-good_Night_Time = "16:41:00"
+good_Night_Time = "23:40:00"
 # 课程表 "1"代表第一周，依次类推，根据个人实际课表添加，有几周就添加几周,
 # 每一行代表一天, 例如  ['', '编译原理', '', '数据库原理及应用', '数据分析原理', '']  代表周一
 classes = \
