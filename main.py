@@ -30,7 +30,7 @@ def get_weather(province, city):
     headers = {
         "Referer": "http://www.weather.com.cn/weather1d/{}.shtml".format(city_id),
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203'
     }
     url = "http://d1.weather.com.cn/dingzhi/{}.html?_={}".format(city_id, t)
     response = get(url, headers=headers)
@@ -214,7 +214,7 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203'
     }
     response = post(url, headers=headers, json=data)
     print(response.text)
@@ -239,7 +239,7 @@ def send_Class_Message(to_user, access_token, classInfo):
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203'
     }
     response = post(url, headers=headers, json=data)
     print(response.text)
@@ -251,7 +251,7 @@ def send_Good_Night(to_user, access_token):
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+                      'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203'
     }
     # 获取天行数据晚安心语
     txUrl = "http://api.tianapi.com/wanan/index"
