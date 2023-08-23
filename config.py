@@ -12,7 +12,7 @@ template_id2 = "wBpOANViDXjsD1vWx0P1RakvHz_yASxnr7sKUyMkCr4"
 template_id3 = "9sGqU0AvgHmTCIvh3xxvVKHfP_3PE5e5qlca4oLN1kg"
 # 接收公众号消息的微信号
 # 这是openid
-user = ["oIe2Z5qmxK8xuhgv2PzlRfLjCzuI"]
+user = ["oIe2Z5r7lNZ4PsBKNcNICa63t8t0"]
 # xx  "oIe2Z5r7lNZ4PsBKNcNICa63t8t0"
 # hh  "oIe2Z5qmxK8xuhgv2PzlRfLjCzuI"
 # 信息配置
